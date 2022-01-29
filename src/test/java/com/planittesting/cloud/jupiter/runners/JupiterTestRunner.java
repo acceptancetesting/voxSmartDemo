@@ -36,13 +36,10 @@ public class JupiterTestRunner {
 
     private static void getBaseEnvironment() {
         String environment = getProperty("spring.profiles.active");
-
-        // TODO - SBC-2640 - Default the popup base environment to d71 until we can make this more
-        // dynamic
-        if (environment.length() == 3) {
+        if(environment.length() > 2) {  //Assuming we have dev, test, prod environment
             setProperty("environment", environment);
         } else {
-            setProperty("environment", "d71");
+            setProperty("environment", "dev");
         }
     }
 }

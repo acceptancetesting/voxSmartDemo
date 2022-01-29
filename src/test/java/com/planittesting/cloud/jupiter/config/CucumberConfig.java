@@ -13,7 +13,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 @ComponentScan(
         basePackages = "com.planittesting.cloud.jupiter")
-@PropertySource("classpath:reporting.properties")
 public class CucumberConfig {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CucumberConfig.class);
