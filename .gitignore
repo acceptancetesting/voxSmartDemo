@@ -1,0 +1,13 @@
+*.iml
+.idea
+.classpath
+.settings
+.project
+.java-version
+*.log
+.repository
+.DS_Store
+~
+/target/
+/bin/
+/reports/
