@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.planittesting.cloud</groupId>
-    <artifactId>planIT</artifactId>
+    <groupId>com.voxSmart.cloud</groupId>
+    <artifactId>voxSmart</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
@@ -185,6 +185,13 @@
             <artifactId>aspectjtools</artifactId>
             <version>1.9.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
 
     </dependencies>
 

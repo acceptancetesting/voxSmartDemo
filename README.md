@@ -1,4 +1,4 @@
-# Automation tests for PlanIT website
+# Automation tests for VoxSmart website
 
  ## Overview
  Sample framework identifies the operating system and installed version of browser, based on the result it picks up the appropriate webdriver and version. For sample project Chrome version 96.0, 97.0 setup is done for Windows, Linux and Mac however this can easily extended to other browser and OS versions. This setup is done to eliminate different testers using different operating systems and browsers. As Webdriver is created as an interface we can have implementations for using Docker and third party tools as Browserstack.
@@ -32,7 +32,7 @@ Tests can be executed within your IDE using a JUnit runner or a Maven runner. Yo
 Examples of how to do this are shown below:
 
 ## JUnit
-Running the **JupiterTestRunner** will trigger all tests against the **dev** environment using chrome.
+Running the **TestRunner** will trigger all tests against the **dev** environment using chrome.
 
 You can also run a test with a specific tag by passing this into the runner. The environment and browser can also be specified:
 
