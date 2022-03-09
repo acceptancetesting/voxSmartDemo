@@ -1,7 +1,7 @@
 # Automation tests for VoxSmart website
 
  ## Overview
- Sample framework identifies the operating system and installed version of browser, based on the result it picks up the appropriate webdriver and version. For sample project Chrome version 96.0, 97.0 setup is done for Windows, Linux and Mac however this can easily extended to other browser and OS versions. This setup is done to eliminate different testers using different operating systems and browsers. As Webdriver is created as an interface we can have implementations for using Docker and third party tools as Browserstack.
+ Sample framework identifies the operating system and installed version of browser, based on the result it picks up the appropriate webdriver and version. For sample project Chrome version 98.0, 99.0 setup is done for Windows, Linux and Mac however this can easily extended to other browser and OS versions. This setup is done to eliminate different testers using different operating systems and browsers. As Webdriver is created as an interface we can have implementations for using Docker and third party tools as Browserstack.
   
  **PageObject Design Pattern** is used with added abstraction layer of PageActions to keep all behaviour seperate from element identifiers.
  
